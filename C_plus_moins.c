@@ -21,7 +21,7 @@ int main ( int argc, char** argv )
         else if (Level==2)
             Max=1000;
         else if (Level==3)
-            Max=1000;
+            Max=10000; // Max was equal to 1000 for level 3 => mistake corrected.
 
         const int MAX = Max, MIN = 1;
 
