@@ -44,7 +44,7 @@ int main()
 
    while (continuer==1) // Boucle while permettant de relancer le programme autant de fois que le joueur veut rejouer.
    {
-       int nombreEssaisMax=5; // Initialisation du nombre de coups maximum.
+       int nombreEssaisMax=10; // Initialisation du nombre de coups maximum.
        motMystere=piocherMotMystere(); // On pioche au hasard un mot mystère dans le dico.
        motMelange = melangerLettres(motMystere); // On mélange ce mot mystère.
 
